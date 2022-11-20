@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/kkkk"
+    android:overScrollMode="never"
+    tools:context=".confirmRent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="Please give these informations for confirmation"
+        android:textColor="#02635A"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+
+    <EditText
+        android:id="@+id/con_upi"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/custom_input"
+        android:hint="Your Upi Id"
+        android:onClick="funcall"
+        android:textSize="20dp"
+        android:layout_marginTop="95sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <EditText
+        android:id="@+id/con_Name"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:paddingLeft="10dp"
+        android:onClick="funcall"
+        android:background="@drawable/custom_input"
+        android:hint="Your name"
+        android:textSize="20dp"
+        android:layout_marginTop="160sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <EditText
+        android:id="@+id/con_phnNo"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Your Contact No"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:onClick="funcall"
+        android:layout_marginTop="280sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <EditText
+        android:id="@+id/con_address"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Your Address"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:onClick="funcall"
+        android:layout_marginTop="220sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <EditText
+        android:id="@+id/con_addhar"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Your Addhar Card Number"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:onClick="funcall"
+        android:layout_marginTop="340sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <EditText
+        android:id="@+id/con_currentadd"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint=" Your Current Living City "
+        android:paddingLeft="10dp"
+        android:onClick="funcall"
+        android:textSize="20dp"
+        android:layout_marginTop="400sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <EditText
+        android:id="@+id/con_buyrent"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Buy/Rent"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:onClick="funcall"
+        android:layout_marginTop="460sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <EditText
+        android:id="@+id/con_Negotitation"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Negotiable Price"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:onClick="funcall"
+        android:layout_marginTop="520sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <EditText
+        android:id="@+id/roomates"
+        android:layout_width="286dp"
+        android:layout_height="51dp"
+        android:background="@drawable/custom_input"
+        android:hint="Roomate needed Yes/No"
+        android:paddingLeft="10dp"
+        android:onClick="funcall"
+        android:textSize="20dp"
+        android:layout_marginTop="580sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="75dp">
+
+        <ImageView
+            android:id="@+id/payrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="#00ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/payrent" />
+
+        <ImageView
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="28dp"
+            android:backgroundTint="#00ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/confirm" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

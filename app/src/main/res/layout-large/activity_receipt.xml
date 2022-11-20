@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/receipt"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    android:layout_height="match_parent"
+    android:background="@drawable/kkkk"
+    tools:context=".Receipt">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:background="@drawable/backgroud_header"
+                android:backgroundTint="#02635A">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Receipt"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="36sp"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30sp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/upiid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Upi Id: "
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/addhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Addhar No.: "
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Name: "
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Contact: "
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="200sp"
+                    android:layout_height="165dp"
+                    android:layout_marginTop="30sp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/upi"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/adddhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="29dp"
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sname"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/scontact"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#10B6CC"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Address: "
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        android:textColor="#10B6CC" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Buy/Rent:"
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        android:textColor="#10B6CC" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Current City: "
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        android:textColor="#10B6CC" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Amount Paid: "
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        android:textColor="#10B6CC" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Note: "
+                        android:textStyle="bold"
+                        android:textSize="27sp"
+                        android:textColor="#10B6CC" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#000000"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/buyrent"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#000000"
+                        android:textSize="6sp" />
+
+                    <TextView
+                        android:id="@+id/currentadd"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#000000"
+                        android:textSize="6sp" />
+
+                    <TextView
+                        android:id="@+id/amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:textColor="#000000"
+                        android:textSize="6sp" />
+
+                    <TextView
+                        android:id="@+id/note"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:textColor="#000000"
+                        android:textSize="6sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_print"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Print"
+            android:src="@drawable/print"
+            />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

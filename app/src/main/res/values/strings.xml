@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Home Rent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app_token">pk.eyJ1IjoiYXlzaGFnYXppIiwiYSI6ImNrZXkxNXJxeDAwdXoyd28wNWpybmw1MDcifQ.cJYjWM_xg-wwPvpJEtAR5w</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_will_send_you_an_one_time_password_on_this_mobile_number">We Will Send You an One Time Password on this mobile number</string>
+    <string name="enter_mobile_number">enter mobile number</string>
+    <string name="_91">+91-</string>
+    <string name="_1234567890">1234567890</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_the_otp_sent_to">Enter the OTP Sent to</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP</string>
+    <string name="resend_otp">RESEND OTP</string>
+    <string name="verify">Verify</string>
+
+
+    <string name="facebook_app_id">470771534984864</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">c2b0ffed9d22dc779f572b66b22700a8</string>
+
+    <string-array name="DivisionsString">
+
+        <item>Amreli</item>
+        <item>Ahemdabad</item>
+        <item>Rajkot</item>
+        <item>Khulna</item>
+        <item>Mehsana</item>
+        <item>Somnath</item>
+        <item>Ghandhinagar</item>
+
+
+    </string-array>
+
+    <string-array name="DhakaDivisionsDistrictsString">
+        <item>Gondal</item>
+        <item>Rajkot</item>
+        <item>Keshod</item>
+        <item>Porbandar</item>
+        <item>Jetpur</item>
+        <item>Somnath</item>
+        <item>Junagadh</item>
+        <item>Dhoraji</item>
+        <item>Jetalsar</item>
+        <item>Madhavpur</item>
+        <item>Chotila</item>
+        <item>Than</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="ChittagongDivisionsDistrictsString">
+        <item>Surendranagar</item>
+        <item>Morbie</item>
+        <item>Surat</item>
+        <item>Vadodra</item>
+        <item>Vakaner</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="BarishalDivisionsDistrictsString">
+        <item>Botad</item>
+        <item>Dahod</item>
+        <item>kalol</item>
+        <item>Deesa</item>
+        <item>Others</item>
+
+
+    </string-array>
+    <string-array name="KhulnaDivisionsDistrictsString">
+        <item>Ankleshwar</item>
+        <item>Patan</item>
+        <item>Halol</item>
+        <item>Vapi</item>
+        <item>Dwarka</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="MymensinghDivisionsDistrictsString">
+        <item>Palanpur</item>
+        <item>Valasad</item>
+        <item>Godhra</item>
+        <item>Baruch</item>
+        <item>Nadiad</item>
+        <item>Ghandhidham</item>
+    </string-array>
+
+    <string-array name="RangpurDivisionsDistrictsString">
+        <item>Gir</item>
+        <item>Kuttch</item>
+        <item>Daman</item>
+        <item>Diu</item>
+        <item>Una</item>
+        <item>Veraval</item>
+        <item>Keshod</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="RajshahiDivisionsDistrictsString">
+        <item>Nadiad</item>
+        <item>Bayod</item>
+        <item>Himatnagar</item>
+        <item>Vyara</item>
+        <item>Kheda</item>
+        <item>Dhavoi</item>
+        <item>Saputara</item>
+        <item>Botad</item>
+
+    </string-array>
+
+    <string-array name="SylhetDivisionDistrictString">
+        <item>Somnath</item>
+        <item>Diu</item>
+        <item>Daman</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="dhakaDisArea">
+        <item>Somnath</item>
+        <item>Patan</item>
+        <item>Gondal</item>
+        <item>jetpur</item>
+        <item>Jetalsar</item>
+        <item>Ahemdabad</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="gazipurDisArea">
+
+        <item>Surendranagar</item>
+        <item>Morbie</item>
+        <item>Than</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="mohammadpurSub">
+
+        <item>Junagadh</item>
+        <item>Veraval</item>
+        <item>Keshod</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Rent">
+        <item>5000-10000</item>
+        <item>11000-15000</item>
+        <item>16000-20000</item>
+        <item>21000-25000</item>
+        <item>26000-30000</item>
+        <item>31000=35000</item>
+    </string-array>
+
+
+    <string-array name="Room">
+        <item>2</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+
+</resources>

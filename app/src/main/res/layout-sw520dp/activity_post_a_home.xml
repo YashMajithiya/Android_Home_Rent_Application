@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostAHome">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/draw"
+        android:background="@drawable/kkkk"
+        tools:openDrawer="start"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post A Home"
+                android:layout_marginStart="105sp"
+                android:textColor="#10B6CC"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="225dp"
+                android:background="@drawable/custom_input"
+                android:text=" Area "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/custom_input"
+                android:hint=" Division "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="115dp"
+                android:background="@drawable/custom_input"
+                android:hint=" Name "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/custom_input"
+                android:text=" District "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinnerDivison1"
+                android:layout_width="180dp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/custom_input"
+                android:hint="Enter District"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spinnerDistrict1"
+                android:layout_width="180dp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/custom_input"
+                android:hint="Enter District"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/spinnerArea1"
+                android:layout_width="180dp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="225dp"
+                android:background="@drawable/custom_input"
+                android:hint="Enter Area"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="280dp"
+                android:background="@drawable/custom_input"
+                android:text=" Rent "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="340dp"
+                android:background="@drawable/custom_input"
+                android:text=" Contact "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/homeName"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="115dp"
+                android:background="@drawable/custom_input"
+                android:hint="Enter a name"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/rentRange"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="280dp"
+                android:background="@drawable/custom_input"
+                android:hint="In Rs"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/phnNo"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="340dp"
+                android:background="@drawable/custom_input"
+                android:hint="Enter Mobile No"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/custom_input"
+                android:text=" Rooms "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/room"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/custom_input"
+                android:hint="No of rooms"
+                android:paddingLeft="10dp"
+                android:textColor="#10B6CC"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/mapApi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="430dp"
+                android:backgroundTint="#00ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/map"
+                />
+
+            <ImageView
+                android:id="@+id/button_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="85dp"
+                android:layout_marginBottom="10sp"
+                android:background="@color/White"
+                android:backgroundTint="#00ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/post" />
+
+            <ImageButton
+                android:id="@+id/homeImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="500dp"
+                android:background="@color/Cyan"
+                android:backgroundTint="#00ffffff"
+                android:src="@drawable/upload"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="575dp"
+                android:background="@drawable/custom_input"
+                android:text=" Description "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="455dp"
+                android:background="@drawable/custom_input"
+                android:text=" Add Photo "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="515dp"
+                android:background="@drawable/custom_input"
+                android:text=" Location "
+                android:textColor="#10B6CC"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <EditText
+                android:id="@+id/des"
+                android:layout_width="165dp"
+                android:layout_height="30sp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="210dp"
+                android:layout_marginTop="577dp"
+                android:background="@drawable/custom_input"
+                android:text="A.C Washing Machine any provided"
+                android:textSize="15dp" />
+
+
+
+        </RelativeLayout>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sidenavmenu"
+            app:menu="@menu/side_navigation"
+            app:headerLayout="@layout/snpicturedesign"
+            android:layout_gravity="start"/>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+</androidx.cardview.widget.CardView>

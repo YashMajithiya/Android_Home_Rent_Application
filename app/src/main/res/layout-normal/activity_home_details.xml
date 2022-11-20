@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    android:layout_height="match_parent"
+    tools:context=".HomeDetails"
+    android:background="@drawable/kkkk">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="HOME DETAILS"
+            android:textAlignment="center"
+            android:textColor="#02635A"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/HDhomePic"
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@drawable/ic_home" />
+
+
+        <TextView
+            android:id="@+id/HDhomeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="4dp"
+            android:text="APARTMENT NAME"
+            android:textColor="#10B6CC"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HDarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370dp"
+            android:gravity="center"
+            android:text="APARTMENT AREA"
+            android:textColor="#10B6CC"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rent1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="410dp"
+            android:text="RENT"
+            android:textColor="#10B6CC"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/HDrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="445dp"
+            android:gravity="center"
+            android:text="000"
+            android:textColor="#10B6CC"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="490dp"
+            android:gravity="center"
+            android:text="ROOMS"
+            android:textColor="#10B6CC"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/HDrooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:text="00"
+            android:textColor="#10B6CC"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:text="DESCRIPTIONS"
+            android:textColor="#10B6CC"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/HDdescription"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="660dp"
+            android:gravity="center"
+            android:text="Descriptions"
+            android:textColor="#10B6CC"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="545dp"
+            android:gravity="center"
+            android:text="Contact"
+            android:textColor="#10B6CC"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="740sp"
+            android:layout_marginEnd="111dp"
+            android:layout_marginBottom="59dp"
+            android:background="#00BCD4"
+            android:backgroundTint="#00ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/rent" />
+
+        <TextView
+            android:id="@+id/HDphoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:gravity="center"
+            android:text="Number"
+            android:textColor="#10B6CC"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>
+

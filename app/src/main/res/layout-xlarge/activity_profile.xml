@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:background="@drawable/kkkk"
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="308dp"
+            android:layout_height="66dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="40sp"
+            android:text="Profile Page"
+            android:textColor="#02635A"
+            android:textSize="45dp"
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_imgP"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="150sp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/profile_pic"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/nameP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:text="Name"
+            android:gravity="center"
+            android:textColor="#10B6CC"
+            android:textSize="30sp"
+            />
+
+
+        <TextView
+            android:id="@+id/addressP"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginTop="500dp"
+            android:text="Address"
+            android:textColor="#10B6CC"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/contactNoP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#10B6CC"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="400dp"
+            android:gravity="center"
+            android:layout_marginEnd="0dp"
+            android:text="Contact No"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/emailP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#10B6CC"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="450dp"
+            android:text="Email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressP"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginBottom="653dp"
+            android:gravity="center"
+            android:text="if Data is Invisible Sorry You Have Logged in Through your google or ohone number"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+</ScrollView>
